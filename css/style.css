@@ -80,3 +80,49 @@ header p {
     font-size: 2rem;
     padding: 20px 0;
 }
+
+/*MAIN*/
+
+/*sezione1*/
+
+.plan-container {
+    max-width: 800px;
+    margin: 70px auto;
+}
+.plan-container h2 {
+    font-size: 2.5rem;
+    padding: 20px 0 50px;
+}
+.fatturazione {
+    margin-right: 40px;
+}
+.my-row1-3 {
+    display: flex;
+}
+.my-row1-3 .mycol1-3 {
+    width: calc((100%/3) - 60px);
+}
+.my-row1-3 .mycol1-3:not(:last-child) {
+    margin-right: 20px;
+}
+.title-plan {
+    border: 1px solid lightgray;
+    padding: 5px;
+    
+}
+.plan-detail {
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 600px;
+}
+.title-plan {
+    text-align: center;
+}
+.plan-detail > ul > li {
+    margin: 10px;
+    list-style: none;
+}
+.plan-detail > ul {
+    margin: 20px 0;
+}
+
