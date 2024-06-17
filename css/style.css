@@ -99,10 +99,11 @@ header p {
 .my-row1-3 {
     display: flex;
 }
-.my-row1-3 .mycol1-3 {
-    width: calc((100%/3) - 60px);
+.my-row .my-col1-3 {
+    width: calc((100% / 3) - 40px);
 }
-.my-row1-3 .mycol1-3:not(:last-child) {
+
+.my-col1-3:not(:last-of-type) {
     margin-right: 20px;
 }
 .title-plan {
@@ -113,16 +114,33 @@ header p {
 .plan-detail {
     border: 1px solid lightgray;
     padding: 15px;
-    height: 600px;
+    height: 850px;
 }
 .title-plan {
     text-align: center;
 }
 .plan-detail > ul > li {
-    margin: 10px;
     list-style: none;
+    padding: 10px 0;
 }
 .plan-detail > ul {
     margin: 20px 0;
 }
-
+.plan-detail > p {
+    padding: 10px 0;
+}
+.plan-detail > hr {
+    width: 20%;
+    color: lightgray;
+    opacity: 0.5;
+    margin: 15px 0;
+}
+#check {
+    color: #0061FF;
+}
+.bold {
+    font-weight: bold
+}
+.gray {
+    color: gray;
+}
