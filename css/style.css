@@ -7,6 +7,21 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 /*General*/
+img {
+    max-width: 100%;
+}
+.download-btn {
+    background-color: #0061FF;
+    height: 30px;
+    width: 50px;  
+}
+.download-btn a  {
+    text-decoration: none;
+    color: white;
+}
+.larger {
+    width: 180px;
+}
 /*HEADER*/
 .header-top {
     width: 100%;
@@ -15,17 +30,21 @@ html {
 }
 .header-top-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 .header-bottom {
-    max-width: 1200px;
     background-color: #B4D0E7;
+}
+.header-bottom-container {
+    max-width: 1000px;
+    max-height: 610px;
     margin: 0 auto;
 }
 .nav-bar {
     display: flex;
     margin: 10px;
     padding-left: 10px;
+    align-items: center;
 }
 .nav-bar > li {
     margin: 10px;
@@ -36,5 +55,28 @@ html {
     color: black;
     text-decoration: none;
 }
+.col1-3 {
+    width: calc(100%/3);
+}
+.col2-3 {
+    width: calc((100%/3) * 2);
+}
+.my-row {
+    display: flex;
+}
+header h1 {
+    font-size: 4rem;
+    padding: 50px 0;
+}
+header p {
+    padding-bottom: 30px;
+}
 
-
+.padd {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#frecciagiu {
+    font-size: 2rem;
+    padding: 20px 0;
+}
