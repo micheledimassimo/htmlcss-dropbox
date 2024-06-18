@@ -164,3 +164,30 @@ header p {
     
     font-size: 0.9rem;
 }
+/*sezione 2*/
+.flex {
+    display: flex;
+}
+.big {
+    width: 60%;
+    margin-right: 25px;
+}
+.small {
+    width: 40%;
+    margin-top: 25px;
+}
+.small h3 {
+    font-size: 1.4rem;
+}
+.small p {
+    padding: 20px 0;
+}
+.partner-btn {
+    background-color: white;
+    border: 1px solid black;
+    width: 130px;
+}
+.partner-btn a  {
+    text-decoration: none;
+    color: black;
+}
