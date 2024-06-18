@@ -191,3 +191,69 @@ header p {
     text-decoration: none;
     color: black;
 }
+/*sezione3*/
+.my-row1-3-6 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.my-row1-3-6 .my-col1-3 {
+    width: 30%;
+}
+.my-row1-3-6 .my-col1-3 p {
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+}
+.footer-top {
+    width: 1000px;
+    margin: 50px auto;
+}
+.footer-bottom {
+    padding: 25px 0;
+    width: 1000px;
+    margin: 0px auto;
+}
+.footer-row {
+    display: flex;
+    padding-top: 100px;
+}
+.footer-col {
+    width: 20%;
+}
+.footer-col nav ul {
+    list-style: none;
+}
+.footer-col nav ul h3 {
+    color: white;
+    padding-bottom: 50px;
+}
+.footer-col nav ul li {
+    padding-bottom: 20px;
+
+}
+.footer-col nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+}
+.footer-top hr {
+    width: 10%;
+    color: gray;
+    margin: 50px 0;
+    opacity: 0.7;
+}
+.language {
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+}
+.language a {
+    text-decoration: none;
+    color: gray;
+    opacity: 0.7;
+}
