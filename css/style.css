@@ -91,13 +91,13 @@ header p {
 }
 /*MAIN*/
 
-/*sezione1*/
+/*SEZIONE1*/
 
-.plan-container {
+.small-container {
     max-width: 800px;
     margin: 70px auto;
 }
-.plan-container h2 {
+.small-container h2 {
     font-size: 2.5rem;
     padding: 20px 0 50px;
 }
@@ -169,7 +169,7 @@ header p {
     
     font-size: 0.9rem;
 }
-/*sezione 2*/
+/*SEZIONE 2*/
 .flex {
     display: flex;
 }
@@ -196,7 +196,7 @@ header p {
     text-decoration: none;
     color: black;
 }
-/*sezione3*/
+/*SEZIONE3*/
 .my-row1-3-6 {
     display: flex;
     justify-content: space-between;
@@ -222,7 +222,24 @@ header p {
 .white-btn a {
     color: black;
 }
-
+/*SEZIONE6*/
+.single-faq {
+    position: relative;
+    padding: 20px 10px;
+    border-top: 1px solid black;
+}
+.single-faq p {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.single-faq:last-child {
+    border-bottom: 1px solid black;
+}
+#chev-down {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
 /*FOOTER*/
 footer {
     background-color: black;
