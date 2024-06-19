@@ -80,6 +80,11 @@ header p {
 .more-padd {
     padding-top: 150px;
     padding-bottom: 150px;
+} 
+#padd-bottom {
+    padding-bottom: 30px;
+} #padd-bottom-lastul {
+    padding-bottom: 10px;
 }
 
 #frecciagiu {
@@ -121,7 +126,7 @@ header p {
 }
 .plan-detail {
     border: 1px solid lightgray;
-    padding: 15px;
+    padding: 25px 35px;
     height: 850px;
 }
 .title-plan {
@@ -130,6 +135,7 @@ header p {
 .plan-detail > ul > li {
     list-style: none;
     padding: 10px 0;
+    font-size: 0.9rem;
 }
 .plan-detail > ul {
     margin: 20px 0;
