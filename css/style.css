@@ -257,6 +257,7 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: auto;
 }
 .chessboard:nth-child(1) {
     background-color: #A2D39B;
