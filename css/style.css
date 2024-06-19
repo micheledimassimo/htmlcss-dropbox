@@ -288,8 +288,7 @@ header p {
     filter: invert(1);
 }
 .resize-img {
-    height: 100px;
-    width: 150px;
+    width: 50%;
     object-fit: contain;
 }
 /*SEZIONE5*/
